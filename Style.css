@@ -1,0 +1,457 @@
+body{
+    background:black; 
+    .edu-sa-beginner {
+        font-family: "Edu SA Beginner", cursive;
+        font-optical-sizing: auto;
+        
+        font-style: normal;
+        
+      }
+}
+header{
+     height: 800px;
+     width: 100%; 
+     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+     
+      } 
+
+/* Navber is style started */
+
+.navber{
+    display: flex;
+    left: 150px;
+    top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Nav content style is started */
+.nav-content{
+    display: flex;
+    
+   
+}
+
+/* Menu responsive is hidden */
+.menu-respon {
+    visibility: none;
+}
+/* Nav-content list  style is started */
+.nav-content li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-left: 50px;
+     
+    
+}
+/* .nav-content li span style is started */
+.nav-content li span{
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 46px;
+    background: rgb(230, 83, 60)
+}
+
+/* nav-container style is started */
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.nav-contain{
+    width: 350px;
+    height: 250px;
+    color: rgb(255, 255, 255);  
+    font-family: Inter;
+    font-size: 5fr;
+    font-weight: 700;
+    left: 190px;
+    top: 199px;
+}
+
+.pacifico-regular  {
+    font-family: "Inter", cursive;
+    font-style: italic;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .nav-contain-pragh{
+     color: rgba(255, 255, 255, 0.5);
+     width: 430px;
+     height: 40px;
+     margin: 28px 0px;
+     font-family: Inter;
+     letter-spacing: 0.5px;
+     font-size: 1fr;
+     font-weight: 400;
+     line-height: 24px
+  }
+
+/* btn-primary style */
+  .btn{
+    padding: 10px 14px 10px 14px;
+     margin: 0px 14px; 
+     font-size: 700;
+     border-radius: 42px;
+     background: rgb(230, 83, 60);
+  }
+
+  /* btn style */
+  .btn1{
+    padding: 10px 14px 10px 14px;
+    margin: 0px 14px;
+    font-size: 700;
+    border-radius: 42px;
+  }
+
+  .card1{
+
+position: absolute; 
+width: 206px;
+height: 96px;
+left: 764px;
+top: 556px;
+box-sizing: border-box;
+border: 1px solid rgba(255,255,255,0.1);
+border-radius: 20px;
+background-color: rgba(48,48,48,0.54);
+margin: 10px 30px 10px;
+   
+  }
+
+  .card1 h1,h6{
+    text-align: center;
+    
+  }
+
+  /* section style started */
+.change-your-habbit{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height: 470px; 
+    left: 150px;
+    top: 800px;
+} 
+
+.change-your-habbit-heading{
+   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
+    color: rgb(255, 255, 255);
+    font-size: 3fr;
+    text-align: center;
+}
+    
+
+  .main-container{
+    display: flex; 
+    justify-content: space-between;
+    left: 150px;
+    top: 820px;
+    background:linear-gradient( rgb(17, 17, 17),rgba(119, 119, 119, 0) );
+  }
+  
+  h1 , p{
+     text-align: center;
+  }
+
+
+  .main-contain-img{
+     width: 400px;
+     height: 240px; 
+     align-items: center;
+     clip-path: circle(37%);
+    
+  }
+
+.main-contain-heading{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-family: Inter;
+   font-size: 1fr;
+   font-weight: 600;
+}
+
+.main-contain-prag{
+  color:black;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+/* Change your habbit style is finished. */
+
+/*Run an extra card style is started.  */
+.run-an-extra-card{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin: 90px 110px;
+  padding: 20px 0px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34); 
+  
+}
+
+
+.run-an-extra-describe{
+  width: 460px;
+  height: 300px;
+  margin: 54px;
+  top: 41px;
+  padding: 50px 10px;
+  
+}
+
+.run-an-extra-describe-title{
+  width: 460px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 14px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.run-an-extra-describe-pragh{
+  width: 480px;
+  height: 60px;
+  margin: 14px 0px;
+  color: rgba(255, 255, 255);
+  font-family: Inter;
+  font-size: 1fr;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  text-align:center;
+
+}
+
+.run-an-extra-describe-img{
+  width: 400px;
+  height: 320px;
+  left: 700px;
+  top: 50px;
+  right: 30px;
+  bottom: 20px; 
+  border-radius: 40px;
+
+}
+
+ .bmi-card-describetion{
+   width: 670px;
+   height: 150px;
+   position: relative;
+   left: 250px;
+   margin: 88px 0px; 
+   
+ }
+.bmi-card-heading{
+  text-align: left; 
+  font-size: 3fr;
+  color: rgb(255,255,255);
+}
+
+.bmi-card-prag{
+  color: rgb(255,255,255, 0.5);
+  width: 640px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 1fr;
+}
+
+/* bmi-card-calculator-desgin */
+
+.bmi-card-calculator-desgin{
+  width:100%;
+  height: 500px;
+  background: rgb(34, 34, 34);
+  position: absolute;
+ 
+} 
+
+/* bmi-calculator-heading */
+.bmi-calculator-heading{
+  height: 40px;
+  width: 450px;
+  margin-top:20px ;
+  font-weight: 900;
+  font-size: 2fr;
+  color: whitesmoke;
+ 
+  left: 150ox;
+  top: 20px;
+}
+
+/* bmi-card-calculator table design  */
+.bmi-card-table{
+  width: 350px;
+  height: 220px;
+  margin-left: 110px;
+  margin-top:140px ;
+  
+}
+
+
+.bmi-card-calculator-child td{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.3fr;
+  left: 5px;
+  font-weight: 400;
+}
+
+table{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* bmi-card-calculator-parent is style started */
+.bmi-card-calculator-parent{
+  display: flex;
+  flex-direction: row;
+}
+/* calculate-your-bmi */
+.calculate-your-bmi{
+  width: 600px;
+  position: absolute;
+  gap: 34px;
+  height: 400px;
+  left: 700px;
+  top: 60px;
+}
+
+/* calculate-you-bmi-btn style is started */
+.calculate-you-bmi-btn {
+  width: 200px;
+  height: 55px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 12px 12px;
+  padding: 10px 30px 10px 20px; 
+}
+
+/* .calculate-you-bmi-select style is started */
+
+.calculate-you-bmi-select{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 12px 30px ;
+    background: rgba(255, 255, 255, 0.1);
+} 
+
+
+/* meet-our-team-container  */
+.meet-section{
+   height: 200px;
+   width: 100%;
+   background-color: rgb(255, 255, 255,);
+   border: 2px solid red;
+
+}
+.meet-team-container{
+   width: 100%;
+   height: 900px;
+   
+   /*  */
+}
+
+/* meet-our-team-contain is styles */
+.meet-our-team-contain{
+   width: 750px;
+   height: 150px;
+   gap: 20;
+   align-items: center;
+   border: 1px solid green;
+}
+/* meet-heading */
+.meet-heading{
+    text-align: center;
+    font-size: 900;
+    color: rgb(255,255,255);
+}
+
+/* meet-team-img */
+.meet-team-img{
+     width: 1300px;
+     height: 700px;
+     display: grid;
+     grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 50px 80px ;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 30px;
+    position: relative;
+}
+
+/* meet-our-section style is finished */
+
+/* Footer section style is started  */
+.fitness-foot-banner{
+    height: 700px ;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+/* fitness-foot-heading */
+
+
+/* Responsive part is started. */
+@media screen and (max-width:576px){
+  .navber{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .menu-respon {
+    visibility: visible;
+  }
+  
+
+  .nav-content{
+      display: none;
+  }
+ .nav-contain{
+    display: flex;
+    flex-direction: column;
+ }
+ .btn,.btn1{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   width: 140px;
+   height: 60px;
+   margin: 0px 14px;
+   padding: 0px 14px;
+ }
+ .nav-img{
+  position: absolute;
+  width: 353px;
+  height: 588px;
+  left: 20px;
+  top: 529px;
+ }
+
+ .change-your-habbit{
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+ .main-contain{
+  display: flex;
+  flex-direction: column;
+ }
+ .run-an-extra-card{
+   display: flex;
+   flex-direction: column;
+ }
+}
+
+
+
